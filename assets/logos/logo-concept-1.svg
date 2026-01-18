@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="120" viewBox="0 0 240 120" role="img" aria-label="Logo concept 1">
+  <rect width="240" height="120" rx="18" fill="#f5fbff" />
+  <g fill="none" stroke="#0a1b33" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M60 70h90a18 18 0 0 0 0-36h-8a26 26 0 0 0-50-8A20 20 0 0 0 60 70z" />
+    <path d="M105 64V38" />
+    <path d="M105 38l-10 10" />
+    <path d="M105 38l10 10" />
+  </g>
+  <path d="M72 78h66" stroke="#0078d4" stroke-width="6" stroke-linecap="round" />
+</svg>

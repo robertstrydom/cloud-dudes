@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="120" viewBox="0 0 240 120" role="img" aria-label="Logo concept 3">
+  <rect width="240" height="120" rx="18" fill="#f5fbff" />
+  <g fill="#3ca9f4">
+    <circle cx="96" cy="62" r="12" />
+    <circle cx="116" cy="54" r="16" />
+    <circle cx="136" cy="62" r="12" />
+    <rect x="92" y="62" width="52" height="16" rx="8" />
+  </g>
+  <circle cx="116" cy="62" r="34" fill="none" stroke="#2bc1a4" stroke-width="4" />
+  <circle cx="160" cy="44" r="6" fill="#0078d4" />
+</svg>
