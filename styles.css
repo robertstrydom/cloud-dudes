@@ -896,6 +896,8 @@ body {
     linear-gradient(160deg, rgba(7, 12, 24, 0.98), rgba(12, 20, 44, 0.9));
   box-shadow: 0 30px 70px rgba(24, 199, 255, 0.35), 0 0 80px rgba(43, 255, 210, 0.25),
     inset 0 0 40px rgba(24, 199, 255, 0.12);
+  padding: 0;
+  place-items: center;
 }
 
 .hero-visual::after {
@@ -912,9 +914,9 @@ body {
 
 .orbit-logo {
   position: relative;
-  width: 420px;
-  height: 420px;
-  padding: 8px;
+  width: 480px;
+  height: 480px;
+  padding: 2px;
   margin: 0 auto;
   display: grid;
   place-items: center;
