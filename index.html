@@ -17,25 +17,25 @@
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.clouddudes.co.za" />
-    <meta property="og:image" content="https://www.clouddudes.co.za/Logo.png" />
+    <meta property="og:image" content="https://www.clouddudes.co.za/logo3.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Cloud Dudes Pty Ltd | Azure Consultancy & MSP" />
     <meta
       name="twitter:description"
       content="Microsoft Azure consultancy and managed services provider delivering remote-first cloud outcomes across Southern Africa and beyond."
     />
-    <meta name="twitter:image" content="https://www.clouddudes.co.za/Logo.png" />
+    <meta name="twitter:image" content="https://www.clouddudes.co.za/logo3.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" href="Logo.png" />
+    <link rel="icon" href="logo3.png" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Organization",
         "name": "Cloud Dudes Pty Ltd",
         "url": "https://www.clouddudes.co.za",
-        "logo": "https://www.clouddudes.co.za/Logo.png",
+        "logo": "https://www.clouddudes.co.za/logo3.png",
         "email": "hello@clouddudes.co.za",
         "areaServed": ["Southern Africa", "Africa"],
         "description": "Microsoft Azure consultancy and managed services provider delivering remote-first cloud outcomes across Southern Africa and beyond."
@@ -43,19 +43,19 @@
     </script>
   </head>
   <body>
+    <div id="particles-js" aria-hidden="true"></div>
     <header class="site-header">
       <div class="nav-wrap">
         <a class="logo" href="#top">
-          <img src="Logo.png" alt="Cloud Dudes Pty Ltd logo" />
+          <img src="logo3.png" alt="Cloud Dudes Pty Ltd logo" />
           <span>Cloud Dudes</span>
         </a>
         <nav class="nav">
           <a href="#about">About</a>
           <a href="#services">Services</a>
-          <a href="#delivery">How We Do It</a>
-          <a href="#support">IT Support</a>
-          <a href="#subscriptions">Subscriptions</a>
-          <a class="nav-cta" href="#contact">Free Assessment</a>
+          <a href="#case-studies">Case Studies</a>
+          <a href="#contact">Contact</a>
+          <a class="nav-cta" href="#contact">Get Started</a>
         </nav>
         <button class="nav-toggle" aria-label="Toggle navigation">
           <span></span>
@@ -68,12 +68,9 @@
     <main id="top">
       <section class="hero">
         <div class="hero-bg"></div>
-        <div class="container hero-panel">
-          <div class="hero-copy">
+        <div class="container hero-layout">
+          <div class="hero-left">
             <p class="eyebrow">Welcome to Cloud Dudes</p>
-            <div class="hero-logo">
-              <img src="Logo.png" alt="Cloud Dudes logo" />
-            </div>
             <h1>Azure cloud outcomes with remote-first execution.</h1>
             <p class="lead">
               Cloud Dudes Pty Ltd is a Microsoft Azure consultancy and managed
@@ -84,17 +81,27 @@
               <a class="btn primary" href="#contact">Book a free consultation</a>
               <a class="btn ghost" href="#services">View services</a>
             </div>
-          </div>
-          <div class="hero-card">
-            <h3>Azure-first delivery</h3>
-            <p>
-              Governance, security, and cost control designed into every
-              engagement.
-            </p>
-            <div class="hero-tags">
+            <div class="hero-badges">
               <span>Landing Zones</span>
               <span>Defender for Cloud</span>
               <span>Azure Monitor</span>
+            </div>
+          </div>
+          <div class="hero-right">
+            <div class="hero-visual">
+              <div class="orbit-logo" aria-hidden="true">
+                <img src="logo3.png" alt="" />
+              </div>
+            </div>
+            <div class="hero-metrics">
+              <div>
+                <h3>Remote-first</h3>
+                <p>Fast onboarding and responsive delivery.</p>
+              </div>
+              <div>
+                <h3>Azure-native</h3>
+                <p>Built on governance and security fundamentals.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -219,6 +226,7 @@
         <div class="container">
           <div class="delivery-layout">
             <div class="section-heading">
+              <div id="case-studies" class="anchor"></div>
               <p class="eyebrow">Delivery Model</p>
               <h2>Remote-first delivery with structured execution.</h2>
               <p>
@@ -379,6 +387,7 @@
       </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
